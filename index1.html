@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+    table{
+    border-collapse: collapse;
+    margin:auto;
+    height: 50%;
+    font-size: 20px;
+    width: 25%;
+ } 
+ table th, td{
+     border: 1px solid black;
+ }
+ .submit{
+    margin-left: 40%;
+ }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th colspan="2">Registration form</th>
+        </thead>
+        <tbody>
+            <form>
+            <tr>
+                <td>Student name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Father's name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Mother's name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Birth Date</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td> 
+                    <label>male</label><input type="radio" name="gender">
+                    <label>female</label><input type="radio" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Addres</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr >
+                <td colspan="2" ><input type="submit" class="submit" value="Submit"></td>
+            </tr>
+            </form>
+        </tbody>
+    </table>
+</body>
+</html>
